@@ -62,6 +62,7 @@ export const Hero: React.FC = () => {
                 <img 
                     src="https://picsum.photos/seed/doctor/800/800" 
                     alt="Farmacêutica sorrindo" 
+                    loading="lazy"
                     className="rounded-2xl w-full object-cover h-[500px]"
                 />
                 

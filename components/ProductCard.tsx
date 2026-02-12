@@ -29,6 +29,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart }
         <img 
           src={product.image} 
           alt={product.name}
+          loading="lazy"
           className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
         />
         {/* Quick Add Overlay Mobile */}
