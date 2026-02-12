@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 
 export interface Product {
   id: number;
